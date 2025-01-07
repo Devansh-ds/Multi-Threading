@@ -1,3 +1,4 @@
+package com.sadds.Synchronization;
 
 public class JoinThread4 {
     public static void main(String[] args) throws InterruptedException {
