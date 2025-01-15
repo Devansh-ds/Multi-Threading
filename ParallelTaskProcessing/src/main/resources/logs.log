@@ -1,0 +1,54 @@
+2025-01-15 08:21:53,771 rocessingApplication [INFO ] [main                ]          logStarting : Starting ParallelTaskProcessingApplication using Java 22 with PID 7528 (C:\Users\Devan\Multi-Threading\practice\src\main\java\com\sadds\PracticeProblems\ParallelTaskProcessing\target\classes started by Devan in C:\Users\Devan\Multi-Threading\practice\src\main\java\com\sadds\PracticeProblems\ParallelTaskProcessing) 
+2025-01-15 08:21:53,774 rocessingApplication [DEBUG] [main                ]          logStarting : Running with Spring Boot v3.4.1, Spring v6.2.1 
+2025-01-15 08:21:53,775 rocessingApplication [INFO ] [main                ] ogStartupProfileInfo : No active profile set, falling back to 1 default profile: "default" 
+2025-01-15 08:21:56,555 rocessingApplication [INFO ] [main                ]           logStarted : Started ParallelTaskProcessingApplication in 3.256 seconds (process running for 4.14) 
+2025-01-15 08:21:58,546 Task.TasksController [INFO ] [http-nio-8080-exec-5]           createTask : Create new task Tasks [id=null, description=Task 2, status=PENDING, priority=10] 
+2025-01-15 08:21:58,546 Task.TasksController [INFO ] [http-nio-8080-exec-6]           createTask : Create new task Tasks [id=null, description=Task 4, status=PENDING, priority=7] 
+2025-01-15 08:21:58,546 Task.TasksController [INFO ] [http-nio-8080-exec-3]           createTask : Create new task Tasks [id=null, description=Task 3, status=PENDING, priority=5] 
+2025-01-15 08:21:58,546 Task.TasksController [INFO ] [http-nio-8080-exec-4]           createTask : Create new task Tasks [id=null, description=Task 0, status=PENDING, priority=3] 
+2025-01-15 08:21:58,546 Task.TasksController [INFO ] [http-nio-8080-exec-2]           createTask : Create new task Tasks [id=null, description=Task 1, status=PENDING, priority=9] 
+2025-01-15 08:21:58,668 ask.TaskQueueService [INFO ] [http-nio-8080-exec-6]              addTask : Adding task: Tasks [id=4, description=Task 4, status=PENDING, priority=7] 
+2025-01-15 08:21:58,668 ask.TaskQueueService [INFO ] [http-nio-8080-exec-3]              addTask : Adding task: Tasks [id=3, description=Task 3, status=PENDING, priority=5] 
+2025-01-15 08:21:58,668 ask.TaskQueueService [INFO ] [http-nio-8080-exec-5]              addTask : Adding task: Tasks [id=2, description=Task 2, status=PENDING, priority=10] 
+2025-01-15 08:21:58,668 ask.TaskQueueService [INFO ] [http-nio-8080-exec-4]              addTask : Adding task: Tasks [id=5, description=Task 0, status=PENDING, priority=3] 
+2025-01-15 08:21:58,668 ask.TaskQueueService [INFO ] [http-nio-8080-exec-2]              addTask : Adding task: Tasks [id=1, description=Task 1, status=PENDING, priority=9] 
+2025-01-15 08:21:58,668 ng.Task.TasksService [INFO ] [http-nio-8080-exec-5]           createTask : Status of Tasks [id=2, description=Task 2, status=RUNNING, priority=10] is RUNNING 
+2025-01-15 08:21:58,668 ng.Task.TasksService [INFO ] [http-nio-8080-exec-6]           createTask : Status of Tasks [id=4, description=Task 4, status=RUNNING, priority=7] is RUNNING 
+2025-01-15 08:21:58,668 ng.Task.TasksService [INFO ] [http-nio-8080-exec-4]           createTask : Status of Tasks [id=5, description=Task 0, status=RUNNING, priority=3] is RUNNING 
+2025-01-15 08:21:58,668 ng.Task.TasksService [INFO ] [http-nio-8080-exec-3]           createTask : Status of Tasks [id=3, description=Task 3, status=RUNNING, priority=5] is RUNNING 
+2025-01-15 08:21:58,668 ng.Task.TasksService [INFO ] [http-nio-8080-exec-2]           createTask : Status of Tasks [id=1, description=Task 1, status=RUNNING, priority=9] is RUNNING 
+2025-01-15 08:21:58,763 Task.TasksController [INFO ] [http-nio-8080-exec-8]           createTask : Create new task Tasks [id=null, description=Task 8, status=PENDING, priority=2] 
+2025-01-15 08:21:58,763 Task.TasksController [INFO ] [ttp-nio-8080-exec-10]           createTask : Create new task Tasks [id=null, description=Task 9, status=PENDING, priority=10] 
+2025-01-15 08:21:58,763 Task.TasksController [INFO ] [http-nio-8080-exec-9]           createTask : Create new task Tasks [id=null, description=Task 5, status=PENDING, priority=6] 
+2025-01-15 08:21:58,763 Task.TasksController [INFO ] [http-nio-8080-exec-7]           createTask : Create new task Tasks [id=null, description=Task 7, status=PENDING, priority=5] 
+2025-01-15 08:21:58,763 Task.TasksController [INFO ] [http-nio-8080-exec-1]           createTask : Create new task Tasks [id=null, description=Task 6, status=PENDING, priority=6] 
+2025-01-15 08:21:58,773 ask.TaskQueueService [INFO ] [http-nio-8080-exec-8]              addTask : Adding task: Tasks [id=8, description=Task 8, status=PENDING, priority=2] 
+2025-01-15 08:21:58,774 ng.Task.TasksService [INFO ] [http-nio-8080-exec-8]           createTask : Status of Tasks [id=8, description=Task 8, status=PENDING, priority=2] is PENDING 
+2025-01-15 08:21:58,775 ask.TaskQueueService [INFO ] [http-nio-8080-exec-9]              addTask : Adding task: Tasks [id=6, description=Task 5, status=PENDING, priority=6] 
+2025-01-15 08:21:58,775 ask.TaskQueueService [INFO ] [http-nio-8080-exec-7]              addTask : Adding task: Tasks [id=9, description=Task 7, status=PENDING, priority=5] 
+2025-01-15 08:21:58,776 ask.TaskQueueService [INFO ] [http-nio-8080-exec-1]              addTask : Adding task: Tasks [id=10, description=Task 6, status=PENDING, priority=6] 
+2025-01-15 08:21:58,776 ng.Task.TasksService [INFO ] [http-nio-8080-exec-9]           createTask : Status of Tasks [id=6, description=Task 5, status=PENDING, priority=6] is PENDING 
+2025-01-15 08:21:58,776 ask.TaskQueueService [INFO ] [ttp-nio-8080-exec-10]              addTask : Adding task: Tasks [id=7, description=Task 9, status=PENDING, priority=10] 
+2025-01-15 08:21:58,777 ng.Task.TasksService [INFO ] [http-nio-8080-exec-7]           createTask : Status of Tasks [id=9, description=Task 7, status=PENDING, priority=5] is PENDING 
+2025-01-15 08:21:58,777 ng.Task.TasksService [INFO ] [http-nio-8080-exec-1]           createTask : Status of Tasks [id=10, description=Task 6, status=PENDING, priority=6] is PENDING 
+2025-01-15 08:21:58,777 ng.Task.TasksService [INFO ] [ttp-nio-8080-exec-10]           createTask : Status of Tasks [id=7, description=Task 9, status=PENDING, priority=10] is PENDING 
+2025-01-15 08:21:58,833 k.TaskConsumerThread [INFO ] [pool-1-thread-2     ] ambda$consumeTasks$1 : Tasks [id=3, description=Task 3, status=RUNNING, priority=5] is Running 
+2025-01-15 08:21:58,833 k.TaskConsumerThread [INFO ] [pool-1-thread-4     ] ambda$consumeTasks$1 : Tasks [id=4, description=Task 4, status=RUNNING, priority=7] is Running 
+2025-01-15 08:21:58,833 k.TaskConsumerThread [INFO ] [pool-1-thread-3     ] ambda$consumeTasks$1 : Tasks [id=1, description=Task 1, status=RUNNING, priority=9] is Running 
+2025-01-15 08:21:58,833 k.TaskConsumerThread [INFO ] [pool-1-thread-5     ] ambda$consumeTasks$1 : Tasks [id=5, description=Task 0, status=RUNNING, priority=3] is Running 
+2025-01-15 08:21:58,833 k.TaskConsumerThread [INFO ] [pool-1-thread-1     ] ambda$consumeTasks$1 : Tasks [id=2, description=Task 2, status=RUNNING, priority=10] is Running 
+2025-01-15 08:22:08,842 k.TaskConsumerThread [INFO ] [pool-1-thread-1     ] ambda$consumeTasks$1 : Tasks [id=2, description=Task 2, status=COMPLETED, priority=10] is Completed 
+2025-01-15 08:22:08,842 k.TaskConsumerThread [INFO ] [pool-1-thread-3     ] ambda$consumeTasks$1 : Tasks [id=1, description=Task 1, status=COMPLETED, priority=9] is Completed 
+2025-01-15 08:22:08,842 k.TaskConsumerThread [INFO ] [pool-1-thread-4     ] ambda$consumeTasks$1 : Tasks [id=4, description=Task 4, status=COMPLETED, priority=7] is Completed 
+2025-01-15 08:22:08,843 k.TaskConsumerThread [INFO ] [pool-1-thread-5     ] ambda$consumeTasks$1 : Tasks [id=5, description=Task 0, status=COMPLETED, priority=3] is Completed 
+2025-01-15 08:22:08,843 k.TaskConsumerThread [WARN ] [pool-1-thread-2     ] ambda$consumeTasks$1 : Tasks [id=3, description=Task 3, status=FAILED, priority=5] is Failed 
+2025-01-15 08:22:08,869 k.TaskConsumerThread [INFO ] [pool-1-thread-5     ] ambda$consumeTasks$1 : Tasks [id=7, description=Task 9, status=RUNNING, priority=10] is Running 
+2025-01-15 08:22:08,872 k.TaskConsumerThread [INFO ] [pool-1-thread-3     ] ambda$consumeTasks$1 : Tasks [id=6, description=Task 5, status=RUNNING, priority=6] is Running 
+2025-01-15 08:22:08,874 k.TaskConsumerThread [INFO ] [pool-1-thread-1     ] ambda$consumeTasks$1 : Tasks [id=8, description=Task 8, status=RUNNING, priority=2] is Running 
+2025-01-15 08:22:08,874 k.TaskConsumerThread [INFO ] [pool-1-thread-4     ] ambda$consumeTasks$1 : Tasks [id=9, description=Task 7, status=RUNNING, priority=5] is Running 
+2025-01-15 08:22:08,874 k.TaskConsumerThread [INFO ] [pool-1-thread-2     ] ambda$consumeTasks$1 : Tasks [id=10, description=Task 6, status=RUNNING, priority=6] is Running 
+2025-01-15 08:22:18,882 k.TaskConsumerThread [INFO ] [pool-1-thread-1     ] ambda$consumeTasks$1 : Tasks [id=8, description=Task 8, status=COMPLETED, priority=2] is Completed 
+2025-01-15 08:22:18,882 k.TaskConsumerThread [INFO ] [pool-1-thread-2     ] ambda$consumeTasks$1 : Tasks [id=10, description=Task 6, status=COMPLETED, priority=6] is Completed 
+2025-01-15 08:22:18,882 k.TaskConsumerThread [INFO ] [pool-1-thread-5     ] ambda$consumeTasks$1 : Tasks [id=7, description=Task 9, status=COMPLETED, priority=10] is Completed 
+2025-01-15 08:22:18,882 k.TaskConsumerThread [INFO ] [pool-1-thread-4     ] ambda$consumeTasks$1 : Tasks [id=9, description=Task 7, status=COMPLETED, priority=5] is Completed 
+2025-01-15 08:22:18,882 k.TaskConsumerThread [WARN ] [pool-1-thread-3     ] ambda$consumeTasks$1 : Tasks [id=6, description=Task 5, status=FAILED, priority=6] is Failed 

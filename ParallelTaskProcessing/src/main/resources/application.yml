@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Devansh2005@#
+    url: jdbc:mysql://localhost:3306/tasks
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+logging:
+  file:
+    name: "C:\\Users\\Devan\\Multi-Threading\\practice\\src\\main\\java\\com\\sadds\\PracticeProblems\\ParallelTaskProcessing\\src\\main\\resources\\logs.log"
+  pattern:
+    file: "%d %-20.20c [%-5p] [%-20.20t] %20.20M : %m %n"
+  level:
+    root: off
+    com:
+      sadds:
+        ParallelTaskProcessing: trace
